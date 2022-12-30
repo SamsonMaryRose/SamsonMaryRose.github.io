@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+  background-color: #C6B299;
+}
+
+nav .navbar {
+  justify-content: space-around;
+  padding: 15px;
+}
+
+#home .col-md-6 {
+  height: 20vh;
+}
+
+nav .navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+nav .nav-link {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+nav .navbar-collapse {
+  flex-grow: 0;
+}
+
+header {
+  height: 89vh;
+}
+
+#home img {
+  max-height: 60%;
+}
+
+#home .banner-text .banner-info p {
+  color: #000;
+  font-size: 20px;
+}
+
+#home span {
+  color: #4B7748;
+}
+
+#home h1{
+  font-size: 70px;
+}
+
+#home span{
+  font-size: 60px;
+}
+
+#home .banner-text .banner-icon {
+  margin-top: 100px;
+}
+
+#home .banner-text .banner-icon .banner-cont a {
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 5px 30px;
+  background-color: #967D5F;
+  color: #000;
+}
+
+#home .banner-text .banner-icon .soc-icon i {
+  color: #000;
+  font-size: 20px;
+  padding: 0px 5px;
+
+}
+
+#home .banner-text .banner-icon .soc-icon {
+  margin-top: 5px;
+}
+
+.about-me {
+  height: 100vh;
+}
+
+.about-me img {
+  border-radius: 100%;
+  max-width: 300px;
+}
+
+#about h2{
+  font-size: 50px;
+  margin-bottom: 20px;
+
+}
+
+.about-me .about-text .text {
+  font-size: 1.5rem;
+  color: #000;
+  text-align:justify;
+  width: 500px;
+}
+
+#portfolio {
+  height: 100vh;
+}
+
+#portfolio .project {
+  padding-top: 100px;
+}
+
+.project .card-body {
+  background-color: #020912 !important;
+  border-bottom: 1px #fff solid;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.portfolio a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+
+.resume .col-md-4 {
+  height: 450px;
+}
+
+.resume h4,
+p {
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  margin-bottom: 0px;
+}
+
+.resume h4 {
+  margin-bottom: 20px;
+}
+
+.resume .img-center .resume-img {
+  max-height: 250px;
+  box-shadow: -10px -10px 0px 3px rgba(87, 84, 84, 0.91);
+  -webkit-box-shadow: -10px -10px 0px 3px rgba(87, 84, 84, 0.91);
+  -moz-box-shadow: -10px -10px 0px 3px rgba(87, 84, 84, 0.91);
+  justify-content: center;
+}
+
+.resume .img-center {
+  text-align: center;
+}
+
+.contact i,
+span { 
+  font-size: 1.5rem;
+}
+
+
+.contact i{
+  margin-right: 20px;
+  color: #6f593e;
+}
+
+.contact .info {
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.h2title {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  font-weight: bolder;
+}
+
+footer {
+  height: 99vh;  
+  display: flex;
+}
+
+.contact-info{
+  width: 40%;
+  padding-left: 30px;
+}
+
+.foot-msg{
+  background-color: #000;
+  height: 99vh;
+  width: 60%;
+}
+
+@media only screen and (max-width: 777px) {
+
+  .about-me,
+  .resume,
+  .portfolio,
+  .contact,
+  .banner {
+    height: 100% !important;
+    margin-bottom: 50px;
+  }
+
+  h1,
+  h2,
+  h3,
+  p {
+    text-align: center;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+  }
+
+  #home .banner-text .banner-icon{
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  #home .banner-text .banner-icon .soc-icon {
+    justify-content: center !important;
+  }
+
+  .banner-info {
+    margin-bottom: 20px;
+  }
+
+  .banner .banner-icon i { 
+    font-size: 2rem;
+    margin: 0px 10px;
+  }
+
+  .banner .banner-text .banner-info h1 {
+    font-size: 30px;
+  }
+
+  .banner .banner-text .banner-info span {
+    font-size: 40px;
+  }
+
+  .banner .explore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner .explore .banner-btn {
+    margin-bottom: 20px;
+  }
+
+  .banner .banner-text .banner-info p {
+    font-size: 20px;
+  }
+
+  .banner .banner-img img { 
+    max-width: 240px;
+  }
+
+  .about-me .skill .circle-progress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-me .about-text .text {
+    font-size: 1rem;
+  }
+
+  .contact h3 {
+    color: #fff;
+    margin: 0px 0px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .contact .info {
+    padding-left: 20px;
+  }
+
+  .contact i,
+  span {
+    color: #fff;
+    font-size: 1rem;
+  }
+
+  .contact .info {
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+}
